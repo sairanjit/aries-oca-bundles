@@ -1,14 +1,15 @@
-# Paricipant Credential
+# Participant Credential
 
-A schema for a "participant" credential used for partipant of the World Memory Championship
+A schema for a participant credential used for partipant of the World Memory Championship
 
+- Publishing Organization: World Memory Championship
 - Primary Contact Email Address: sairanjit.tummalapalli@ayanworks.com
 
 ## Identifiers
 
 | Identifier                               | Location        | URL                                                         |
 | ---------------------------------------- | --------------- | ----------------------------------------------------------- |
-| TfGSZ1rWA4kk8npaaSg7Ca:3:CL:53340:latest | indicio:demonet | https://indyscan.indiciotech.io/tx/IND_DEMONET/domain/53340 |
+| TfGSZ1rWA4kk8npaaSg7Ca:2:Participant:0.1 | indicio:demonet | https://indyscan.indiciotech.io/tx/IND_DEMONET/domain/53340 |
 
 ## Authorization
 

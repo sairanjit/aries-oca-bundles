@@ -15,7 +15,7 @@ import { Clear, UploadFile } from "@mui/icons-material";
 import { OverlayBundle } from "@hyperledger/aries-oca/build/types";
 
 const BUNDLE_LIST_URL =
-  "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main";
+  "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop";
 const BUNDLE_LIST_PATH = "/ocabundleslist.json";
 
 function Form({
