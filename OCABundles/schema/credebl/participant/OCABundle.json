@@ -9,14 +9,8 @@
         "issued_by": "Text"
       },
       "classification": "",
-      "digest": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
-      "flagged_attributes": [
-        "full_name",
-        "date_of_birth",
-        "country",
-        "category",
-        "issued_by"
-      ],
+      "digest": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
+      "flagged_attributes": [],
       "type": "spec/capture_base/1.0"
     },
     "overlays": [
@@ -28,9 +22,9 @@
           "full_name": "utf-8",
           "issued_by": "utf-8"
         },
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
         "default_character_encoding": "utf-8",
-        "digest": "EdoN_Nu8HTgUZnF94_rSOUNtfYbwoD1toLXC5-SHGq4I",
+        "digest": "EuGXrBkuZ1kPZO3oYDoo9kcRmyjF7C6FGGNvIDSsRilw",
         "type": "spec/overlays/character_encoding/1.0"
       },
       {
@@ -42,9 +36,9 @@
           "full_name": "Full Name",
           "issued_by": "Issued By"
         },
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
         "category_labels": {},
-        "digest": "Eabh_I10gpsEDExlS40Ik6u-C0jqOsCo5eVj-n7X4C8Q",
+        "digest": "EoOGcN47JFSquL1eUk2Ya4kuNOBTZn8lJZCv0XKkfAJ0",
         "language": "en",
         "type": "spec/overlays/label/1.0"
       },
@@ -56,8 +50,8 @@
           "full_name": "Full Name of the participant",
           "issued_by": "Issued by the authority"
         },
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
-        "digest": "ENpcRh68IMmnWHaZeYCe7hIrZvW3Xud_YqkJOYo7Vtas",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
+        "digest": "Ey7nufuG2nDUVuq92ohMQnbw1g21xSN8Qu-cIOr0xQQk",
         "language": "en",
         "type": "spec/overlays/information/1.0"
       },
@@ -65,29 +59,42 @@
         "attribute_formats": {
           "date_of_birth": "YYYYMMDD"
         },
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
-        "digest": "EN7OZKDveudBUrSzCxVGeNZx80TgCjR6_8dKMmQL5tRE",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
+        "digest": "EcpxCZxfsT7Ip-XkUDQ7eegx_PgNmYKreyzHW2OkXwsM",
         "type": "spec/overlays/format/1.0"
       },
       {
         "attribute_standards": {
           "date_of_birth": "urn:iso:std:iso:1989"
         },
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
-        "digest": "E0KID6YrfTrhp06DmsDaEFX8js77ocPT3SvGPKWNvXv8",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
+        "digest": "E-1RTQ-zXlED-h0Qb9D9GbB1c_un1a25p8J9sqqB6-A8",
         "type": "spec/overlays/standard/1.0"
       },
       {
-        "capture_base": "EzuIW-OsaM5DDzm4898rVacxi3sZVL849cR6-PFMLeCg",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
         "credential_support_url": "https://www.worldmemorychampionships.com/",
         "description": "Participant Schema",
-        "digest": "EsVLED225iMnv3v3gO0ydUzm7Q5FOd8NstnB2mLjwv7M",
+        "digest": "EgwhP6J_EI95QyZj-UwF9SxbMa0ukzrE8HYM5gCQDO4Y",
         "issuer": "World Memory Championship",
         "issuer_description": "World Memory Championship",
         "issuer_url": "https://www.worldmemorychampionships.com/",
         "language": "en",
         "name": "Participant",
         "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/participant/participant-logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/participant/background-slice.png",
+        "background_image": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/participant/background-image.png",
+        "primary_background_color": "#40004B",
+        "secondary_background_color": "",
+        "capture_base": "EPLjKoCalvf_iR3Bvtwx9gLrrcx9dDL92FKFkvo4jSpQ",
+        "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+        "expiry_date_attribute": "",
+        "primary_attribute": "category",
+        "secondary_attribute": "",
+        "type": "aries/overlays/branding/1.0"
       }
     ]
   }
