@@ -1,0 +1,117 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "category": "Text",
+        "challenge_category": "Text",
+        "country": "Text",
+        "date_of_birth": "DateTime",
+        "full_name": "Text",
+        "issued_by": "Text",
+        "rank": "Text"
+      },
+      "classification": "",
+      "digest": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+      "flagged_attributes": [
+        "challenge_category",
+        "full_name",
+        "date_of_birth",
+        "rank",
+        "country",
+        "category",
+        "issued_by"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "category": "utf-8",
+          "challenge_category": "utf-8",
+          "country": "utf-8",
+          "date_of_birth": "utf-8",
+          "full_name": "utf-8",
+          "issued_by": "utf-8",
+          "rank": "utf-8"
+        },
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "default_character_encoding": "utf-8",
+        "digest": "EfWfqmN8fmCHAjqBh-adMbzcLgP2StJMwRySBINRY5hQ",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "category": "Category",
+          "challenge_category": "Challenge Category",
+          "country": "Country",
+          "date_of_birth": "Date of Birth",
+          "full_name": "Full Name",
+          "issued_by": "Issued By",
+          "rank": "Rank"
+        },
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "category_labels": {},
+        "digest": "Ejq75VmgqpVYw8bzzKOrbPP6nnSEhpZJr6xN0kpPryks",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "category": "Category of the competition",
+          "challenge_category": "Challenge Category of the participant",
+          "country": "Country of the participant",
+          "date_of_birth": "Date of Birth of the participant",
+          "full_name": "Full name of the participant",
+          "issued_by": "Issued by the authority",
+          "rank": "Rank of the participant"
+        },
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "digest": "ErB19u9V9IyFgr8P3GIEqBTNHZdyTunieElL2Psn8ssM",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_formats": {
+          "date_of_birth": "YYYYMMDD"
+        },
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "digest": "Ey6FDG07IegJNiQej4XdgO4TpQKFDachyvvIn9SXHP6k",
+        "type": "spec/overlays/format/1.0"
+      },
+      {
+        "attribute_standards": {
+          "date_of_birth": "urn:iso:std:iso:1989"
+        },
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "digest": "EZ4YvjmfmbkAs_8P9j2Yi9zsKAupXmzEpQdRqHVCA3xE",
+        "type": "spec/overlays/standard/1.0"
+      },
+      {
+        "capture_base": "EbQdDc-yhzmn9i606YAam55upo1SqUqX2wWYURtm4c9w",
+        "credential_support_url": "https://www.worldmemorychampionships.com/",
+        "description": "Winner",
+        "digest": "ENJ9_2kS0PdeDEviGh-gxabEuIZ3UMFpOOPMf5z6AU58",
+        "issuer": "World Memory Championship",
+        "issuer_description": "World Memory Championship",
+        "issuer_url": "https://www.worldmemorychampionships.com/",
+        "language": "en",
+        "name": "Winner",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/winner/winner_logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/winner/background_slice.png",
+        "background_image": "https://raw.githubusercontent.com/sairanjit/aries-oca-bundles/develop/OCABundles/schema/credebl/winner/background_image.png",
+        "primary_background_color": "#011641",
+        "secondary_background_color": "",
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+        "expiry_date_attribute": "",
+        "primary_attribute": "challenge_category",
+        "secondary_attribute": "rank",
+        "type": "aries/overlays/branding/1.0"
+      }
+    ]
+  }
+]
