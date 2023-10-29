@@ -75,13 +75,13 @@
       {
         "capture_base": "EeFmgw9jLCwnEKRk6dBR0D2oL0lc2sfWhieLwwefLDJc",
         "credential_support_url": "https://www.worldmemorychampionships.com/",
-        "description": "Winner",
-        "digest": "EApsoYcnCx5hnA4SFDMmrZx9iz7eFx1QpN7xjpoD5h1s",
+        "description": "Arbiter",
+        "digest": "Ek6NGA6IbzFhiE3D3-nISnAvUj2aaS_nralI5vFOu3-s",
         "issuer": "World Memory Championship",
         "issuer_description": "World Memory Championship",
         "issuer_url": "https://www.worldmemorychampionships.com/",
         "language": "en",
-        "name": "Winner",
+        "name": "Arbiter",
         "type": "spec/overlays/meta/1.0"
       },
       {
